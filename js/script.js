@@ -141,6 +141,12 @@ function peachFunction() {
   orangeTextS.classList.add("opacity-0");
   orangeTextS.classList.add("pointer-events-none");
   orangeTextS.classList.add("invisible");
+  countUpButton.classList.add("cursor-not-allowed");
+  countUpButton.classList.add("opacity-50");
+  countUpButton.classList.remove("cursor-pointer");
+  countDownButton.classList.remove("cursor-not-allowed");
+  countDownButton.classList.remove("opacity-50");
+  countDownButton.classList.add("cursor-pointer");
 }
 
 BtnCola.addEventListener("click", colaFunction);
@@ -220,6 +226,12 @@ function colaFunction() {
   orangeTextS.classList.add("opacity-0");
   orangeTextS.classList.add("pointer-events-none");
   orangeTextS.classList.add("invisible");
+  countUpButton.classList.remove("cursor-not-allowed");
+  countUpButton.classList.remove("opacity-50");
+  countUpButton.classList.add("cursor-pointer");
+  countDownButton.classList.remove("cursor-not-allowed");
+  countDownButton.classList.remove("opacity-50");
+  countDownButton.classList.add("cursor-pointer");
 }
 
 BtnLemonade.addEventListener("click", lemonadeFunction);
@@ -299,6 +311,12 @@ function lemonadeFunction() {
   orangeTextS.classList.add("opacity-0");
   orangeTextS.classList.add("pointer-events-none");
   orangeTextS.classList.add("invisible");
+  countUpButton.classList.remove("cursor-not-allowed");
+  countUpButton.classList.remove("opacity-50");
+  countUpButton.classList.add("cursor-pointer");
+  countDownButton.classList.remove("cursor-not-allowed");
+  countDownButton.classList.remove("opacity-50");
+  countDownButton.classList.add("cursor-pointer");
 }
 
 BtnRaspberry.addEventListener("click", raspberryFunction);
@@ -378,6 +396,12 @@ function raspberryFunction() {
   orangeTextS.classList.add("opacity-0");
   orangeTextS.classList.add("pointer-events-none");
   orangeTextS.classList.add("invisible");
+  countUpButton.classList.remove("cursor-not-allowed");
+  countUpButton.classList.remove("opacity-50");
+  countUpButton.classList.add("cursor-pointer");
+  countDownButton.classList.remove("cursor-not-allowed");
+  countDownButton.classList.remove("opacity-50");
+  countDownButton.classList.add("cursor-pointer");
 }
 
 BtnOrange.addEventListener("click", orangeFunction);
@@ -457,6 +481,12 @@ function orangeFunction() {
   orangeTextS.classList.remove("opacity-0");
   orangeTextS.classList.remove("pointer-events-none");
   orangeTextS.classList.remove("invisible");
+  countUpButton.classList.remove("cursor-not-allowed");
+  countUpButton.classList.remove("opacity-50");
+  countUpButton.classList.add("cursor-pointer");
+  countDownButton.classList.add("cursor-not-allowed");
+  countDownButton.classList.remove("opacity-50");
+  countDownButton.classList.remove("cursor-pointer");
 }
 
 /************* animition start look-section on scroll *********** */
