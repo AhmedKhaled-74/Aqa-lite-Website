@@ -63,7 +63,8 @@ const colaTextS = document.querySelector(".cola-text-s");
 const lemonadeTextS = document.querySelector(".lemonade-text-s");
 const raspberryTextS = document.querySelector(".raspberry-text-s");
 const orangeTextS = document.querySelector(".orange-text-s");
-
+const countUpButton = document.getElementById("count-up");
+const countDownButton = document.getElementById("count-down");
 BtnPeach.addEventListener("click", peachFunction);
 function peachFunction() {
   BtnPeach.classList.add("scale-150");
@@ -527,8 +528,6 @@ observer.observe(Aqa4);
 
 /*********** slide buttons *********** */
 // Get references to the buttons
-const countUpButton = document.getElementById("count-up");
-const countDownButton = document.getElementById("count-down");
 
 // Define the count and function mapping
 const countFunctionMap = {
